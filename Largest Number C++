@@ -1,1 +1,22 @@
+#include<iostream>
+using namespace std;
 
+int main()
+{
+    int n1,n2,n3;
+
+    cout <<"Enter Three Different Number: ";
+    cin >> n1 >> n2 >> n3;
+    
+    if(n1>=n2 && n1>=n3)
+        cout << "\nLargest Number: " << n1;
+        
+    if(n2>=n1 && n2>=n3)
+        cout << "\nLargest Number: " << n2;
+        
+    if(n3>=n1 && n3>=n2)
+        cout << "\nLargest Number: " << n3;
+    
+    
+    return 0;
+}
